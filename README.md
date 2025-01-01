@@ -1,5 +1,6 @@
 # tour_web
-A responsive travel website built with HTML, CSS, and JavaScript to showcase beautiful destinations and tour packages.<br><br>
+A responsive travel website built with HTML, CSS, and JavaScript to showcase beautiful destinations and tour packages.
+<br><br>
 <strong>Features</strong><br>
 - Responsive design for all devices.
 - Interactive animations and hover effects.

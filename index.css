@@ -78,31 +78,7 @@
     border-bottom: 2px solid #00D8FF;
     padding-bottom: 34px;
 }
-#xyz
-{
-    display: flex;
-    justify-content: space-between;
-}
-#mob-navbar
-{
-    display: flex;
-    background-color: #4D4E54;
-    padding: 5px;
-    margin-top: -30px;
-    display: none;
-}
-#mob-menu
-{
-    color: #fff;
-}
-.logo-text-mob a
-{
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 500;
-}
+
 #para
 {
     color: #fff;
@@ -132,6 +108,7 @@
 }
 .btn-mob
 {
+    display: none;
     margin-top: 8px;
 }
 #main-p{
@@ -956,11 +933,11 @@
 
 @media only screen and (max-width:600px) 
 {
-    #navbar
+    .menu, #bn
     {
         display: none;
     }  
-    #mob-navbar
+    .btn-mob
     {
         display: block;
     }      

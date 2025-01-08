@@ -245,7 +245,11 @@
     background-color: #F9F9F9;
 }
 #picture img{
-  
+  width: auto;
+  max-width: 500px;
+  max-height:400px;
+  object-fit: cover;
+  padding: 20px;
 }
 #zzz
 {
@@ -256,106 +260,82 @@
 {
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.para-1
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    margin-left: 190px;
-    margin-top: -135px;
-    z-index: 1;
-}
-.para-2
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    padding: 5px;
-    margin-left: 35px;
-    margin-top: -135px;
-}
-.para-3
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    margin-left: 180px;
-    margin-top: -127px;
-}
-.para-4
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    margin-left: 85px;
-    margin-top: -127px;
-}
-.para-6
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    margin-left: 85px;
-    margin-top: -127px;
-}
-.para-5
-{
-    color: #fff;
-    font-size: 22px;
-    font-weight:500;
-    margin-left: 17px;
-    margin-top: -127px;
-}
-.dest-img-1
-{
-    margin-left: 150px;
-    padding: 10px;
-}
-.hov{
-    overflow:hidden;
-    transition: transform 5s ease; /* Smooth slow transition */
-    transform: scale(1);
-    display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-.hov:hover img{
-    transform: scale(1.2);
+.hov .paraone{
+    position: absolute;
+  top: 87%; /* Center the text vertically */
+  left: 25%; /* Center the text horizontally */
+  transform: translate(-90%, -90%); /* Adjust for perfect centering */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 5px
 }
-.hov:hover p
-{
-    color: #75efbc;
-    position: sticky;
+.paratwo{
+    position: absolute;
+  top: 89%; /* Center the text vertically */
+  left: 31%; /* Center the text horizontally */
+  transform: translate(-90%, -90%); /* Adjust for perfect centering */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 5px
 }
-.dest-img-2
-{
-    padding: 10px;
-    margin-left: -3px;
+.parathree{
+    position: absolute;
+  top: 91%; /* Center the text vertically */
+  left: 53%; /* Center the text horizontally */
+  transform: translate(-90%, -90%); /* Adjust for perfect centering */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 5px
 }
-.dest-img-3
-{
-    padding: 10px;
-    margin-left: 150px;
+.parafour{
+    position: absolute;
+  top: 89%; /* Center the text vertically */
+  left: 31%; /* Center the text horizontally */
+  transform: translate(-90%, -90%); /* Adjust for perfect centering */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 5px
 }
-.dest-img-4
-{
-    padding: 10px;
-    margin-left: 49px;
+.parafive{
+    position: absolute;
+  top: 87%; /* Center the text vertically */
+  left: 25%; /* Center the text horizontally */
+  transform: translate(-90%, -90%); /* Adjust for perfect centering */
+  color: white; /* Text color */
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 5px
 }
-.dest-img-5
-{
-    margin-left: -54px;
-    padding: 10px;
+
+.hov{
+    overflow: hidden;
+    transition: transform 5s ease; /* Smooth slow transition */
+    transform: scale(1);
 }
-.dest-img-6
-{
-    margin-left: 52px;
-    padding: 10px;
-    margin-top: 21px;
-}
+
 .pack-6 h5
 {
     font-size: 24px;

@@ -37,7 +37,6 @@
 }
 .btn1
 {
-    z-index: 1000;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -64,7 +63,7 @@
     background: rgba(59, 182, 231, 0.5);  
     height: 100vh;
     background-size: cover;
-    position: relative;
+    z-index: 9;
 }
 .menu li a
 {
@@ -91,7 +90,7 @@
     border: none;
     border-radius: 5px;
     padding: 16px;
-    width: 15%;
+    width: 150px;
     margin-left: 40px;
 }
 #flow
@@ -100,8 +99,8 @@
     margin-top: -57.5px;
     background-color: #fff;
     width: 80%;
-    position: absolute;
     left: 10%;
+    z-index: 1000;
 }
 .btn-mob
 {
@@ -119,6 +118,7 @@
     display: flex;
     padding: 0px;
     gap: 3px;
+    background-color: #fff;
 }
 .icons-1
 {
@@ -176,26 +176,18 @@
     transform: rotate(360deg);
     transition: 1s;
 }
-#select-abc
-{
-    width: 90%;
-    height: 35px;
-    padding: 20px;
-}
-#select-abc2
-{
-    width: 90%;
-    height: 35px;
-    padding: 20px;
-    margin-top: 10px;
-}
 #chechin-box{
     display: flex;
     padding: 35px;
 }
+#hhhh{
+    padding: 20px;
+}
 #b222{
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #Destination
 {
@@ -218,6 +210,9 @@
 #ggg
 {
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #range
 {
@@ -241,7 +236,7 @@
 #space
 {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 100px;
     padding: 50px;
     margin-bottom: 80px;
 }
@@ -250,8 +245,7 @@
     background-color: #F9F9F9;
 }
 #picture img{
-    transition: -webkit-transform .1s ease;
-    transition: transform .1s ease;
+  
 }
 #zzz
 {
@@ -261,6 +255,9 @@
 #picture
 {
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .para-1
 {
@@ -321,6 +318,9 @@
     overflow:hidden;
     transition: transform 5s ease; /* Smooth slow transition */
     transform: scale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hov:hover img{
     transform: scale(1.2);
@@ -987,5 +987,27 @@
     .menu li:hover a
     {   
         color: #FFF;
+    }
+}
+
+@media only screen and (max-width:977px) {
+    .menu li
+    {
+        display: inline-block;
+        color: #fff;
+        margin-right: 10px;
+        margin-left: 0px;
+        font-weight: 500;
+    }
+    .menu{
+        padding-left: 0px;
+    }
+    #b222 {
+        display: flex;
+        gap: 10px;
+    }
+    #para
+    {
+        margin-top: 80px;
     }
 }

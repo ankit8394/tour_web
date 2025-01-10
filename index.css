@@ -40,7 +40,7 @@
     color: #fff;
     border: none;
     border-radius: 6px;
-    width: 60%;
+    width: 120px;
     margin-top: -20px;
     padding: 8px;
     background-color: #00D8FF;
@@ -55,8 +55,8 @@
 {
     border: 1.5px solid #fff;
     opacity: 1;
-    width: 91.5%;
     margin-left: 35px;
+    margin-right: 35px;
 }
 #layer-blk
 {
@@ -223,6 +223,7 @@
 {
     padding: 40px;
     justify-content: space-between;
+    display: flex;
 }
 .btn-search
 {
@@ -537,6 +538,7 @@
 #col-9-offer{
     margin-top: 6%;
     padding: 8%;
+    max-width: 600px;
 }
 #col-9-offer h4{
     margin-bottom: 20px;
@@ -789,10 +791,11 @@
     margin-left: 55px;
 }
 .footer-hr{
-    color: #4D4E54  ;
-    width: 76%;
+    color: #4D4E54 ;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 40px;
-    margin-left: 170px;
+    text-align: center;
 }
 #f-logo{
     text-align: center;
@@ -858,12 +861,21 @@
 }
 
 
+@media only screen and (max-width:568px) {
+    #col-offer-3{
+        display: none;
+    }
+    #budget{
+        padding: 10px;
+    }
+    .btn-search {
+        padding: 10px;
+        width: 105px;
+    }
+}
+
 @media only screen and (max-width:768px) 
 {
-    .line
-    {
-        margin-left: 20px;
-    }
     #navbar {
         padding-top: 20px;
         margin-left: 0px;
@@ -906,8 +918,6 @@
     {   
         color: #00D8FF;
     }
-}
-@media only screen and (max-width:772px){
     #col-9-offer {
         margin-top: 6%;
         padding: 2px;
@@ -921,10 +931,7 @@
         font-size: 42pt;
     }
     #r-subs-box {
-        text-align: center;
         padding: 50px;
-        background-color: #74EAFF;
-        margin-bottom: 40px;
     }
 }
 @media only screen and (max-width:977px) {
@@ -943,5 +950,9 @@
     #para
     {
         margin-top: 80px;
+    }
+    .btn1
+    {
+        width: 90px;
     }
 }
